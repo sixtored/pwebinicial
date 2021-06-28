@@ -43,7 +43,7 @@ ul.botones li a {
 	font-weight: bold;
 	line-height: 50px;
 	color: #b00202;
-	border:solid 2px #b00202;
+	border:solid 1px #b00202;
 }	
 ul.botones li a:hover {
 	background-color:#dcde26;
