@@ -1,0 +1,99 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+
+	}
+
+header {
+	height: 70px;
+	background-color:#FFFF;
+}
+
+footer {
+	border-left: 20px solid #0d0d0d;
+	background-color: #ff9933;
+	height: 100px;
+	width: 940px;
+}
+
+
+
+#contenedor {
+	height: auto;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#botones {
+	height:70px;
+	border-left: 20px solid #ff9933;
+	background-color:#FFFF;
+	float: left;
+	}
+
+#botones ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botones ul li {
+	display: inline;
+	}
+
+#botones ul li a {
+	display: inline-block;
+	width: 150px;
+	height: 70px ;
+	background-color: #FFFF;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: 70px;
+	color:#1a1a1a;
+	border-right:2px dotted #CCC;
+}	
+#botones ul li a:hover {
+	background-color:#ff9933;
+	color: #ffffff;
+	font-style: italic;
+	}	
+
+#inicio {
+	background-color:#b37700;
+	height: 300px;
+}	
+
+#marca {
+	height:300px;
+	padding-top:27px;
+	border-left:solid 20px #0d0d0d;
+	}
+
+#nosotros {
+	background-color:#99b3ff;
+	height: 350px;
+}	
+
+#servicios{
+	border-left: 20px solid #0d0d0d;
+	background-color: #88cc00;
+	height: 400px;
+}
+
+#contacto {
+	background-color: #b3b300;
+	height: 300px;
+}
+
+#btn_redes {
+	background-color: #88cc00;
+	height: 50px;
+	width: 380px ;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
