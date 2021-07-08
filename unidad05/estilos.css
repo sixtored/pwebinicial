@@ -1,0 +1,201 @@
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+header, section, footer {
+	width: 960px ;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 100px;
+	background-color:#0d0d0d;
+}
+
+footer {
+	background-color: #ff9933;
+	height: 250px;
+	}
+
+#marca {
+	height: 100px;
+	width: 200px;
+	float: left;
+	}	
+
+#marca h1 {
+	text-align:center;
+	margin: 5px ;
+	font-size: 26px;
+	color: #ffffff;
+}	
+
+#marca h1 a {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+#botones {
+	height:100px;
+	width: 500px;
+	float: right;
+	background-color: 
+	}
+
+#botones ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+
+#botones ul li {
+	display: inline;
+}	
+
+#botones ul li a {
+	text-decoration: none;
+	display: inline-block;
+	height: 100px;
+	width: 7em;
+	background-color: #0d0d0d;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#botones ul li a:hover {
+	background-color: rgba(255,255,255,0.5);
+	color: #0d0d0d;
+}
+
+#inicio {
+	height: 300px;
+	background-color: rgba(255,255,255,0.5); ;
+	border-top: 10px solid rgba(0,0,0,0.7);
+	background-image: url(images/camiones_cosecha.jpg);
+	background-position: left;
+}	
+
+#image {
+	height: 300px;
+	width:  660px;
+	background-position: left;
+	float: left;
+}	
+
+#texto_inicio {
+	height: 300px;
+	width:  300px;
+	background-color: rgba(0,0,0,0.2); 
+	float:  right;
+}	
+
+#texto_inicio h2 {
+	color: #ffffff; 
+	text-align:center;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+#texto_inicio p {
+	color: #ffffff;
+	text-align: justify;
+	margin: 10px;
+	font-size: 14px;
+}
+
+
+#servicios {
+	background-color: rgba(0,0,0,0.5); 
+	height: 300px;
+}
+#titulo_servicios {
+background-color: rgba(0,0,0,0.5); 
+height: 50px;
+border-top: 10px solid rgba(0,0,0,0.7);	
+}
+
+#titulo_servicios h2 {
+	text-align:center;
+	color: #ffffff;
+	font-style: italic;
+	margin: 0;
+	padding:0;
+}
+
+#titulo_servicios p {
+	text-align: center;
+	font-style: italic;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 0;
+	padding:0;
+}
+
+#servicios ul {
+	list-style-type: none;
+}
+
+#servicios ul li {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#sucursales {
+	background-color:#99b3ff;
+	height: 350px;
+}	
+
+
+#contacto {
+	background-color: #b3b300;
+	height: 400px;
+}
+
+
+#formulario {
+	height: 400px;
+	width: 50%;
+	background-color: #0d0d0d;
+	float: left;
+}
+
+#datos_contacto {
+	height: 400px;
+	width: 50%;
+	background-color: #0000e6;
+	float: right;
+}
+
+#empresa {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 200px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+#destinos {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 350px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+
+#btn_redes {
+	background-color: #88cc00;
+	height: 200px;
+	width: 200px ;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
