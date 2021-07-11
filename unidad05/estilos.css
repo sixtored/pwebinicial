@@ -11,10 +11,17 @@ header, section, footer {
 header {
 	height: 100px;
 	background-color:#0d0d0d;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d))
+	/*
+	background-color: 
+	-moz-box-shadow:10px 10px 5px #ffffff;
+	-webkit-box-shadow:10px 10px 5px #ffffff;
+	box-shadow:10px 10px 5px #ffffff;
+	*/
 }
 
 footer {
-	background-color: #ff9933;
+	background-color: #0d0d0d;
 	height: 250px;
 	}
 
@@ -22,6 +29,7 @@ footer {
 	height: 100px;
 	width: 200px;
 	float: left;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d))
 	}	
 
 #marca h1 {
@@ -40,7 +48,6 @@ footer {
 	height:100px;
 	width: 500px;
 	float: right;
-	background-color: 
 	}
 
 #botones ul {
@@ -110,13 +117,15 @@ footer {
 
 
 #servicios {
-	background-color: rgba(0,0,0,0.5); 
-	height: 300px;
+	background-color: #0d0d0d;
+	height: 350px;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d))
 }
 #titulo_servicios {
-background-color: rgba(0,0,0,0.5); 
+background-color: #0d0d0d; 
 height: 50px;
-border-top: 10px solid rgba(0,0,0,0.7);	
+border-top: 10px solid rgba(0,0,0,1);	
+background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d))
 }
 
 #titulo_servicios h2 {
@@ -138,18 +147,39 @@ border-top: 10px solid rgba(0,0,0,0.7);
 
 #servicios ul {
 	list-style-type: none;
+	margin-top: 10px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
 }
 
 #servicios ul li {
 	font-size: 14px;
 	color: #ffffff;
+	text-align: center;
+}
+
+#texto_servicios {
+	color: #ffffff;
+	font-size:14px;
+	text-align: justify;
+	margin:10px;
 }
 
 #sucursales {
-	background-color:#99b3ff;
-	height: 350px;
+	backgorund-color: rgba(0,0,0,0.5); 
+	height: 300px;
+	background-image: url(images/mapasuc.jpg);
 }	
 
+#titulo_sucursales h2 {
+	height: 70px;
+	text-align:center;
+	color: #ffffff;
+	font-style: italic;
+	margin: 0;
+	padding:0;
+	float: left;
+}
 
 #contacto {
 	background-color: #b3b300;
@@ -174,24 +204,96 @@ border-top: 10px solid rgba(0,0,0,0.7);
 #empresa {
 	background-color: #0d0d0d;
 	height: 200px;
-	width: 200px ;
+	width: 300px ;
 	float: left;
 	margin-top: 30px;
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
-#destinos {
+#empresa h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+}
+#empresa p {
+	color: #ffffff;
+	text-align:justify;
+	margin: 10px;
+	padding:0;
+	font-size:14px;
+	font-style: italic;
+}
+
+#dest {
 	background-color: #0d0d0d;
 	height: 200px;
-	width: 350px ;
+	width: 150px ;
 	float: left;
 	margin-top: 30px;
 	margin-left: 50px;
+	box-sizing: border-box;
+}
+
+#dest h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+}
+
+#dest ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#dest ul li {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+}
+
+
+#institucion {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 150px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+#institucion h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+}
+
+#institucion ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#institucion ul li a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
 }
 
 
 #btn_redes {
-	background-color: #88cc00;
+	background-color:  #0d0d0d;
 	height: 200px;
 	width: 200px ;
 	float: right;
@@ -199,3 +301,17 @@ border-top: 10px solid rgba(0,0,0,0.7);
 	margin-right: 50px;
 }
 
+#btn_redes h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+}
+
+#btn_redes a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+}
