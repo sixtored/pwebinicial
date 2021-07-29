@@ -588,7 +588,7 @@ footer {
 }
 
 #inicio {
-	height:400px;  
+	height:350px;  
 	width: 300px;
 }	
 
@@ -597,13 +597,13 @@ footer {
 	width: auto;
 	background-image: url(images/camiones_cosecha.jpg);
 	background-position: left;
-	max-height: 400px;
+	max-height: 350px;
 	max-width: 300px;
 	float: left;
 }	
 
 #texto_inicio {
-	height: 400px;
+	height: 350px;
 	width:  200px;
 	background-color: rgba(0,0,0,0.6); 
 	float:  right;
@@ -619,7 +619,7 @@ footer {
 #texto_inicio p {
 	color: #ffffff;
 	text-align: justify;
-	margin: 5px;
+	margin: 10px;
 	font-size: 14px;
 }
 
