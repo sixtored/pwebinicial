@@ -373,6 +373,7 @@ footer {
 }
 
 #image {
+	height: 400 ;
 	width:  60%
 }	
 
@@ -587,6 +588,7 @@ footer {
 }
 
 #inicio {
+	height:400px;  
 	width: 300px;
 }	
 
@@ -595,29 +597,29 @@ footer {
 	width: auto;
 	background-image: url(images/camiones_cosecha.jpg);
 	background-position: left;
-	max-height: 300px;
+	max-height: 400px;
 	max-width: 300px;
 	float: left;
 }	
 
 #texto_inicio {
-	height: 300px;
+	height: 400px;
 	width:  200px;
-	background-color: rgba(0,0,0,0.5); 
+	background-color: rgba(0,0,0,0.6); 
 	float:  right;
 }	
 
 #texto_inicio h2 {
 	color: #ffffff; 
 	text-align:center;
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-left: 10px;
 }
 
 #texto_inicio p {
 	color: #ffffff;
 	text-align: justify;
-	margin: 10px;
+	margin: 5px;
 	font-size: 14px;
 }
 
