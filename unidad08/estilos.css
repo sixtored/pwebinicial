@@ -1,0 +1,867 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+header, section, footer {
+	width: 960px ;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 100px;
+	background-color:#0d0d0d;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));
+	position: sticky;
+	top:0;
+}
+
+footer {
+	background-color: #0d0d0d;
+	height: 250px;
+	}
+
+#marca {
+	height: 100px;
+	width: 200px;
+	float: left;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));
+	}	
+
+#marca h1 {
+	text-align:center;
+	margin: 5px ;
+	font-size: 26px;
+	color: #ffffff;
+}	
+
+#marca h1 a {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+#botones {
+	height:100px;
+	width: 500px;
+	float: right;
+	display: block;
+	}
+
+#botones ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+
+#botones ul li {
+	display: inline;
+}	
+
+#botones ul li a {
+	text-decoration: none;
+	display: inline-block;
+	height: 100px;
+	width: 7em;
+	background-color: #0d0d0d;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#botones ul li a:hover {
+	background-color: rgba(255,255,255,0.5);
+	color: #0d0d0d;
+}
+
+#inicio {
+	height: 300px;
+	background-color: rgba(255,255,255,0.5); ;
+	border-top: 10px solid rgba(0,0,0,0.7);
+	background-image: url(images/camiones_cosecha.jpg);
+	background-position: left;
+}	
+
+#image {
+	height: 300px;
+	width:  660px;
+	background-position: left;
+	float: left;
+}	
+
+#texto_inicio {
+	height: 300px;
+	width:  300px;
+	background-color: rgba(0,0,0,0.6); 
+	float:  right;
+}	
+
+#texto_inicio h2 {
+	color: #ffffff; 
+	text-align:center;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+#texto_inicio p {
+	color: #ffffff;
+	text-align: justify;
+	margin: 10px;
+	font-size: 14px;
+}
+
+
+#servicios {
+	background-color: #0d0d0d;
+	height: 400px;
+	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));
+}
+
+#titulo_servicios {
+background-color: #0d0d0d; 
+height: 50px;
+border-top: 10px solid rgba(0,0,0,1);	
+background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));
+}
+
+#titulo_servicios h2 {
+	text-align:left;
+	color: #ffffff;
+	font-style: italic;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#titulo_servicios p {
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#imagen_servicios {
+	width: 300px;
+	height:150px;
+	float: left;
+	margin: 10px;
+	box-sizing: border-box;
+
+}
+
+#imagen_servicios img {
+	width: 100%;
+}	
+
+#lista_servicios {
+	width: 400px;
+	height: 150px;
+	float: left;
+	margin: 10px ;
+}
+
+#lista_servicios ul {
+	list-style-type: none;
+	margin-top: 10px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+}
+
+#lista_servicios ul li {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: left;
+}
+/**
+
+#texto_servicios {
+	width: 400px;
+	height: 100px;
+	color: #ffffff;
+	font-size:14px;
+	text-align: justify;
+	margin:10px;
+	float: left ;
+}
+
+*/
+
+#sucursales {
+	backgorund-color: rgba(0,0,0,0.5); 
+	height: 350px;
+	background-image: url(images/mapasuc.jpg);
+}	
+
+
+#titulo_sucursales {
+backgorund-color: rgba(0,0,0,0.5); 	
+height: 50px;
+}
+
+#titulo_sucursales h2 {
+	text-align:left;
+	color: #ffffff;
+	font-style: italic;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#titulo_sucursales p {
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#contacto {
+	background-color: #b3b300;
+	height: 400px;
+}
+
+
+#formulario {
+	height: 400px;
+	width: 50%;
+	background-color: #0d0d0d;
+	float: left;
+}
+
+#datos_contacto {
+	height: 400px;
+	width: 50%;
+	background-color: #0000e6;
+	float: right;
+}
+
+#empresa {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 300px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: 
+	/*
+	-moz-box-shadow:10px 10px 5px #ffffff;
+	-webkit-box-shadow:10px 10px 5px #ffffff;
+	box-shadow:10px 10px 5px #ffffff;
+	*/
+}
+
+#empresa h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	background-color: 
+}
+#empresa p {
+	color: #ffffff;
+	text-align:justify;
+	margin: 10px;
+	padding:0;
+	font-size:14px;
+	font-style: italic;
+}
+
+#dest {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 150px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	box-sizing: border-box;
+}
+
+#dest h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 0px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#dest ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#dest ul li {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+}
+
+
+#institucion {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 150px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+#institucion h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 2px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#institucion ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#institucion ul li a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+}
+
+
+#btn_redes {
+	background-color:  #0d0d0d;
+	height: 200px;
+	width: 200px ;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+#btn_redes h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 0px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#btn_redes a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+}
+
+#btn_responsive {
+	width: 35px;
+	height: 35px;
+	float:  left;
+	padding: 5px;
+	box-sizing: border-box;
+	display: none;
+}
+
+#btn_responsive a {
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 22px;
+}
+
+/* DISPOSITIVOS MENORES A 600 */
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer {
+	width: 580px ;
+}
+
+
+footer {
+	height: 300px;
+	}
+
+#marca {
+	width: 100px;
+	}	
+
+#botones {
+	width: 450px;
+	}
+
+#botones ul li a {
+	width: 6em;
+	padding: 5px;
+	padding-top: 20px;
+}
+
+#image {
+	height: 400 ;
+	width:  60%
+}	
+
+#texto_inicio {
+	width:  230px;
+	float:  left;
+}	
+
+
+#servicios {
+	height: 300px;
+}
+
+#imagen_servicios {
+	width: 250px;
+	height:100px;
+	float: left;
+	margin: 5px;
+
+}
+
+#lista_servicios {
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin: 5px ;
+
+}
+
+
+#contacto {
+	height: 800px;
+}
+
+
+#formulario {
+	height: 400px;
+	width: 100%;
+	background-color: #0d0d0d;
+	float: left;
+}
+
+#datos_contacto {
+	height: 400px;
+	width: 100%;
+	background-color: #0000e6;
+	float: left;
+}
+
+#empresa {
+	background-color: #0d0d0d;
+	width: 300px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: 
+}
+
+#empresa h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+}
+#empresa p {
+	color: #ffffff;
+	text-align:justify;
+	margin: 10px;
+	padding:0;
+	font-size:14px;
+	font-style: italic;
+}
+
+#dest {
+	background-color: #0d0d0d;
+	width: 110px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+#dest h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 0px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#dest ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#dest ul li {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+}
+
+
+#institucion {
+	background-color: #0d0d0d;
+	height: 200px;
+	width: 100px ;
+	float: left;
+	margin-top: 30px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+#institucion h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: left;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 2px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#institucion ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#institucion ul li a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+}
+
+
+#btn_redes {
+	background-color:  #0d0d0d;
+	height: 70px;
+	width: 200px ;
+	float: left;
+	margin-top: 0px;
+	box-sizing: border-box;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+#btn_redes h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 0px;
+	padding:0;
+	-moz-box-shadow:0px 2px 0px #00b300;
+	-webkit-box-shadow:0px 2px 0px #00b300;
+	box-shadow:0px 2px 0px #00b300;
+}
+
+#btn_redes a {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+}
+
+} 
+
+/* DISPOSITIVOS MENOR A 599 */
+@media all and (min-width: 320px) and (max-width: 599px) {
+
+header, section, footer {
+	width: 300px ;
+}
+
+header {
+	height: 80px;
+}
+
+footer {
+	background-color: #0d0d0d;
+	height: 250px;
+	}
+
+#marca, #botones {
+	height: auto;
+	width: 100% ;
+	float: none;
+	}	
+
+#botones {
+	display: none;
+	}		
+
+#marca h1 {
+	text-align:left;
+	margin: 0px ;
+	font-size: 20px;
+	color: #ffffff;
+	box-sizing: border-box;
+}	
+
+
+#botones ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botones ul li {
+   display: block;
+}	
+
+
+#botones ul li a {
+	height: auto;
+	width: 100%;
+	text-decoration: none;
+}
+
+#inicio {
+	height:350px;  
+	width: 300px;
+}	
+
+#image {
+	height: auto;
+	width: auto;
+	background-image: url(images/camiones_cosecha.jpg);
+	background-position: left;
+	max-height: 350px;
+	max-width: 300px;
+	float: left;
+}	
+
+#texto_inicio {
+	height: 350px;
+	width:  200px;
+	background-color: rgba(0,0,0,0.6); 
+	float:  right;
+}	
+
+#texto_inicio h2 {
+	color: #ffffff; 
+	text-align:center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#texto_inicio p {
+	color: #ffffff;
+	text-align: justify;
+	margin: 10px;
+	font-size: 14px;
+}
+
+
+#servicios {
+	height: 350px;
+}
+
+#titulo_servicios h2 {
+	font-size: 18px ;
+}
+
+#titulo_servicios p {
+	font-size: 12px;
+}
+
+#imagen_servicios {
+	width: 300px;
+	height:100px;
+	float: left;
+	margin: 0px;
+	box-sizing: border-box;
+
+
+}
+
+#lista_servicios {
+	width: 180px;
+	height: 110px;
+	float: right;
+	margin: 10px ;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.6); 
+
+
+}
+
+#servicios ul li {
+	font-size: 11px;
+	color: #ffffff;
+	text-align: left;
+}
+
+#texto_servicios {
+	font-size: 11px;
+}
+
+#sucursales {
+	backgorund-color: rgba(0,0,0,0.5); 
+	height: 350px;
+	width: auto;
+	background-image: url(images/mapasuc.jpg);
+	max-width: 300px;
+}	
+
+
+#titulo_sucursales {
+backgorund-color: rgba(0,0,0,0.5); 	
+height: 50px;
+}
+
+#titulo_sucursales h2 {
+	font-size: 18px;
+}
+
+#titulo_sucursales p {
+	font-size: 12px;
+}
+
+#contacto {
+	height: 400px;
+	width: 300px;
+}
+
+
+#formulario {
+	height: 200px;
+	width: 300px;
+	float: left;
+}
+
+#datos_contacto {
+	height: 200px;
+	width:  300px;
+	float: left;
+}
+
+#empresa {
+	background-color: #0d0d0d;
+	height: 130px;
+	width: 300px ;
+	float: left;
+	margin: 0;
+}
+
+#empresa h3 {
+	font-size: 16px;
+}
+#empresa p {
+	font-size:11px;
+}
+
+#dest {
+	height: 150px;
+	width: 150px ;
+	float: left;
+	margin: 0;
+}
+
+#dest h3 {
+	height: 20px;
+	width: 150px;
+	font-size: 16px;
+	margin: 5px;
+	padding:0;
+	float: left;
+}
+
+#dest ul {
+	height: 120px;
+	width: 150px;
+	margin-left: 5px;
+	padding: 5px 0px 0px 5px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#dest ul li {
+	font-size: 14px;
+	text-align: left;
+}
+
+
+#institucion {
+	height: 150px;
+	width: 150px ;
+	float: right;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#institucion h3 {
+	color: #ffffff;
+	text-align:left;
+	margin: 5px;
+	padding:0;
+	float: right;
+}
+
+#institucion ul {
+	list-style-type: none;
+	margin-top: 5px;
+	padding:0px 5px 5px;
+	box-sizing: border-box;
+	float: right;
+}
+
+#institucion ul li a {
+	font-size: 14px;
+}
+
+
+#btn_redes {
+	height: 70px;
+	width: 300px ;
+	float: left;
+	margin: 0;
+}
+
+#btn_redes h3 {
+	width: 200px;
+	color: #ffffff;
+	text-align:left;
+	font-size: 16px;
+	margin: 5px;
+	padding:0;
+	float: left;
+}
+
+#btn_redes a {
+	width: 200px;
+	font-size: 14px;
+}
+
+#btn_responsive {
+	display: block;
+}
+
+} 
