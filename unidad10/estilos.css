@@ -210,30 +210,29 @@ height: 50px;
 	background-color: #0d0d0d;
 	height: 400px;
 	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));	
-	padding-top: 10px;
-	padding-left: 10px;
-	box-sizing: border-box;
 }
 
 #titulo_contacto {
-	height:60px;
-	width:100% ;
-	background-color: #0d0d0d;
+	height: 60px;
+	background-color: #ff0000 ;
+	/**
 	background:-webkit-gradient(radial, -184 -84, 0, 18 -257, 465, from(#86FF00), to(#0d0d0d));
+	*/
+}
+
+#micontacto {
+	height: 340px;
 }
 
 #datos_contacto {
-	height: auto;
-	width: 50%;
-	float: left;
+	background-color: #3399ff;
 }
 
 #formulario {
-	height: auto;
-	width: 50%;
-	background-color: #0d0d0d;
-	float: right;
+	background-color: #ffff00
 }
+
+
 
 #empresa {
 	background-color: #0d0d0d;
@@ -436,24 +435,6 @@ footer {
 	float: left;
 	margin: 5px ;
 
-}
-
-
-
-#contacto {
-	height: 600px;
-	padding: 0;
-}
-
-
-#datos_contacto {
-	width: 100%;
-	float: left;
-}
-
-#formulario {
-	width: 100%;
-	float: left;
 }
 
 
@@ -728,27 +709,6 @@ footer {
 backgorund-color: rgba(0,0,0,0.5); 	
 height: 50px;
 }
-
-
-#contacto {
-	height: 600px;
-	width: 300px;
-	padding:  0;
-}
-
-#datos_contacto {
-	height: auto ;
-	width:  300px;
-	float: left;
-}
-
-#formulario {
-	height: auto ;
-	width: 300px;
-	float: left;
-}
-
-
 
 #empresa {
 	background-color: #0d0d0d;
