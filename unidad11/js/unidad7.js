@@ -1,0 +1,10 @@
+var nombre = prompt('Ingrese su nombre: ')
+var _parrafo1 = nombre + ': '+ '\"Ofrecemos cargas de cereales a corta y larga distancia.\"'
+var ciudad = prompt('Ingrese ciudad de origen: ')
+var _parrafo2 = 'Tambien contamos con integración de recursos tecnológicos en: '+ciudad
+var ciudad2 = prompt('Ingrese ciudad de destino: ')
+var _parrafo3 = 'Realizamos transporte hasta: ' + ciudad2
+var carga = prompt('Ingrese tipo de carga: ')
+var _parrafo3 = 'Realizamos transporte de '+carga+' hasta: ' + ciudad2
+var diacarga = prompt('Ingrese el dia para cargar: ')
+var _parrafo4 = ' El, '+diacarga+' partimos desde '+ciudad+', llegando a destino, '+ciudad2+' a dia siguiente.'
